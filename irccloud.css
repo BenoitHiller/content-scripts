@@ -1,3 +1,10 @@
+/**
+ * IrcCloud
+ *
+ * Fixes:
+ * 1. Use monospace font for the text content.
+ */
+
 div.log div.messageRow .message {
   font-family: NanumGothicCoding, "Lucida Console", Monaco, monospace;
 }

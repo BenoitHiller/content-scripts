@@ -2,7 +2,7 @@
   "manifest_version":2,
   "name":"Benoit's Content Scripts",
   "description":"Content scripts for various pages",
-  "version":"0.9",
+  "version":"1.0",
   "content_scripts": [
     {
       "matches": ["http://www.octopuspie.com/*"],
@@ -11,6 +11,10 @@
     {
       "matches": ["http://www.awkwardzombie.com/*"],
       "js": ["hotkeys.js", "awkwardzombie.js"]
+    },
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["youtube.js"]
     },
     {
       "matches": ["https://www.irccloud.com/*"],
