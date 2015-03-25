@@ -1,0 +1,7 @@
+div.log div.messageRow .message {
+  font-family: NanumGothicCoding, "Lucida Console", Monaco, monospace;
+}
+
+div.log div.messageRow .message .prefix {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
