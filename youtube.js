@@ -14,7 +14,7 @@
   }
   focusPlayer();
 
-  var observer = new MutationObserver(focusPlayer);
+  var observer = new MutationObserver(setTimeout.bind(this,focusPlayer,500));
 
   var content = $("#content");
   observer.observe(content, {"childList":true}); 
