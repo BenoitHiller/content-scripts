@@ -13,6 +13,11 @@
       "js": ["hotkeys.js", "awkwardzombie.js"]
     },
     {
+      "matches": ["http://www.google.com/analytics/"],
+      "run_at": "document_start",
+      "js": ["analytics.js"]
+    },
+    {
       "matches": ["https://www.irccloud.com/*"],
       "css": ["irccloud.css"]
     },
