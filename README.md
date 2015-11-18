@@ -4,7 +4,7 @@ This is a collection of little content scripts I have set up for use with chrome
 
 ## Usage
 
-Clone the repository into a folder, then in chrome://extensions load the folder as an unpacked extension.
+Clone the repository into a folder, then in [chrome://extensions](chrome://extensions) load the folder as an unpacked extension.
 
 If you make your own changes and additions you just have to go back and click the reload button on the extension in the list.
 
