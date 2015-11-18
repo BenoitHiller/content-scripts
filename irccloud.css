@@ -2,10 +2,10 @@
  * IrcCloud
  *
  * Fixes:
- * 1. Use monospace font for the text content.
+ * 1. Use my monospace font for the text content.
  */
 
-div.log div.messageRow .message {
+div.log div.messageRow .message, textarea {
   font-family: NanumGothicCoding, "Lucida Console", Monaco, monospace;
 }
 
