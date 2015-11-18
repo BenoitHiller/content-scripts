@@ -14,6 +14,10 @@
       "js": ["hotkeys.js", "awkwardzombie.js"]
     },
     {
+      "matches": ["http://gunshowcomic.com/*"],
+      "js": ["hotkeys.js", "gunshow.js"]
+    },
+    {
       "matches": ["http://www.buzzfeed.com/*"],
       "js": ["jquery-2.1.3.min.js","buzzfeed.js"]
     },
