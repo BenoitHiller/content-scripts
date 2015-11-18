@@ -13,10 +13,6 @@
       "js": ["hotkeys.js", "awkwardzombie.js"]
     },
     {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["youtube.js"]
-    },
-    {
       "matches": ["https://www.irccloud.com/*"],
       "css": ["irccloud.css"]
     },
