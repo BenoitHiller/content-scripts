@@ -33,6 +33,11 @@
     {
       "matches": ["https://cloud.digitalocean.com/droplets/*"],
       "css": ["digital-ocean.css"]
+    },
+    {
+      "matches": ["https://doc.rust-lang.org/*"],
+      "css": ["rust-lang.css"],
+      "js": ["jquery-2.1.3.min.js","rust-lang.js"]
     }
   ]
 }

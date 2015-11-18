@@ -1,0 +1,34 @@
+/**
+ * Rust-lang docs
+ *
+ * Fixes:
+ * 1. Content is displayed too wide on page by default, making it illegible.
+ * 2. Slight highlighting change where the function names are not distinct enough.
+ * 3. Remove the web font which does not render correctly for me.
+ * 4. Pop out the list of methods into a floating sidebar.
+ */
+h1, h2, h3, h4, .sidebar, a.source, .search-input, .content table :not(code)>a, .collapse-toggle {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#main {
+  width: 600px;
+  position: relative;
+}
+
+.fqn + pre {
+  position: fixed !important;
+  width: 600px;
+  left: 910px;
+  height: 80%;
+  top: 60px;
+  overflow-y: scroll;
+}
+
+.methods .section-header {
+  margin: 20px 0 15px 0 !important;
+}
+
+.content .fnname {
+  color: #DE3E72 !important;
+}
