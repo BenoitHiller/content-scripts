@@ -4,7 +4,7 @@
  * Fixes:
  * 1. Selects the player by default so that space will pause instead of scroll.
  */
-
+/*
 ;(function($) {
   function focusPlayer(_) {
     var player = $(".html5-video-player");
@@ -20,3 +20,4 @@
   observer.observe(content, {"childList":true}); 
 
 }(document.querySelector.bind(document)));
+*/
