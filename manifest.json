@@ -10,7 +10,7 @@
       "js": ["hotkeys.js", "octopuspie.js"]
     },
     {
-      "matches": ["http://www.awkwardzombie.com/*"],
+      "matches": ["http://*.awkwardzombie.com/*"],
       "js": ["hotkeys.js", "awkwardzombie.js"]
     },
     {
