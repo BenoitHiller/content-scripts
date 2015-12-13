@@ -27,6 +27,11 @@
       "js": ["js/analytics.js"]
     },
     {
+      "matches": ["http://*.ruby-doc.org/*"],
+      "run_at": "document_start",
+      "js": ["js/ruby-doc.js"]
+    },
+    {
       "matches": ["https://www.irccloud.com/*"],
       "css": ["css/irccloud.css"]
     },
