@@ -37,5 +37,23 @@ $(".hot-block__list .list__li > a, .HotHead > .abtrack > a").each(function(i, el
   getFullTitle(wrapped.attr("href"), function(text) {
     wrapped.attr("title", text);
   });
-})
+});
+
+$(document).keydown(function(event) {
+  if (event.which === 66 && event.altKey) {
+    var results = $(".quiz_result_area");
+    if (results.length) {
+      results.css("display", "block");
+      $(results.children()[0]).css("display", "block");
+      $(".quiz_result").each(function() {
+        var div = $(this);
+        div.css("display","block");
+        div.find("img.result_img").each(function() {
+          var result_image = $(this);
+          result_image.attr("src", result_image.attr("data:src"));
+        });
+      });  
+    }
+  }
+});
 })();
